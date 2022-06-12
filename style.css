@@ -1,6 +1,139 @@
-* {
-    background-color: hsl(216, 50%, 16%);
+*{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
     font-family: "Open Sans";
-    font-size: 18px;
+    list-style-type: none;
+}
+
+main{
+    text-align: center;
+    margin: 50px 450px 50px 450px;
+    padding: 10px 10px 10px 10px;
+    background-color: hsl(216, 58%, 10%);
+    border-radius: 10px;
+}
+
+body main div {
+    padding-top: 15px;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    
+
+}
+
+body main div, h2, p, ul, li{
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+#style-pic{
+    width: 210px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+#style-pic:hover{
+    cursor: pointer;
+    background-image: url(icons/icon-view.svg);
+}
+
+h2 {
+    color: white;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content:left;
+    padding-left: 18px;
+}
+
+h2:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+#text-words {
+    color: hsl(215, 51%, 70%);
+    font-family: inherit;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    padding-left: 18px;
+    text-align: left;
+}
+
+#eth-style {
+    color: hsl(178, 100%, 50%);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#eth-icon {
+    width: 6px;
+    height: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+#timer-style {
+    color: hsl(215, 51%, 70%);
+    font-size: 10px;
+}
+
+#clock-icon {
+    width: 11px;
+    height: 11px;
+    background-color: hsl(216, 50%, 16%);
+    padding-top: 1px;
+}
+
+#person-img{
+    width: 18px;
+    height: 18px;
+    margin: 2px 2px;
+    border-color: white;
+    border-style: solid;
+    border: 1px 1px;
+    border-width: 1px;
+    border-radius: 50%;
+    
+}
+
+#creator-name-style{
+    color: white;
+    font-family: inherit;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+span{
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(216, 50%, 16%);
+    padding-right: 2px;
+}
+
+#creator-name-hover:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#first-ul {
+    display: flex;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: left;
+    gap: 90px;
+}
+
+#second-ul{
+    display: flex;
+    padding-left: 18px;
+    justify-content: left;
+    gap: 10px;
+    padding-top: 10px
+
 }
 
