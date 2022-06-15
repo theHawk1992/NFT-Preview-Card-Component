@@ -18,8 +18,6 @@ body main div {
     padding-top: 15px;
     border-radius: 2px;
     padding-bottom: 10px;
-    
-
 }
 
 body main div, h2, p, ul, li{
@@ -83,8 +81,8 @@ h2:hover{
 }
 
 #clock-icon {
-    width: 11px;
-    height: 11px;
+    width: 12px;
+    height: 9px;
     background-color: hsl(216, 50%, 16%);
     padding-top: 1px;
 }
@@ -97,8 +95,7 @@ h2:hover{
     border-style: solid;
     border: 1px 1px;
     border-width: 1px;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
 
 #creator-name-style{
@@ -106,6 +103,7 @@ h2:hover{
     font-family: inherit;
     font-size: 10px;
     padding-bottom: 20px;
+    padding-top: 4px;
 }
 
 span{
@@ -125,7 +123,7 @@ span{
     padding-bottom: 10px;
     padding-top: 10px;
     justify-content: left;
-    gap: 90px;
+    gap: 85px;
 }
 
 #second-ul{
@@ -133,7 +131,53 @@ span{
     padding-left: 18px;
     justify-content: left;
     gap: 10px;
-    padding-top: 10px
-
+    padding-top: 10px;
 }
 
+@media (max-width:480px) {
+    main{
+        text-align: center;
+        margin: 40px 30px 40px 30px;
+        padding: 15px 20px 35px 20px;
+        background-color: hsl(216, 58%, 10%);
+        border-radius: 10px;
+    }
+
+    body main div {
+    padding-top: 20px;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    }
+    #style-pic{
+        width: 255px;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    #text-words {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    
+    #eth-icon {
+        width: 9px;
+        height: 13px;
+    }
+
+    #eth-style {
+        font-size: 14px;
+    }
+
+    #timer-style {
+        font-size: 13px;
+    }
+
+    #clock-icon {
+        width: 14px;
+        height: 13px;
+        padding-top: 1px;
+    }
+}
